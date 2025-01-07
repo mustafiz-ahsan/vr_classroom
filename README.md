@@ -35,6 +35,7 @@ A modern web application built with Laravel and Tailwind CSS that provides an im
 3. Install NPM dependencies:
    ```bash
    npm install
+
    ```
 
 4. Configure environment:
@@ -46,6 +47,7 @@ A modern web application built with Laravel and Tailwind CSS that provides an im
    ```bash
    php artisan migrate
    ```
+   php artisan db:seed
 
 6. Build assets:
    ```bash
@@ -65,18 +67,6 @@ A modern web application built with Laravel and Tailwind CSS that provides an im
 - **Enrollments**: Tracks user enrollment and progress
 - **Reviews**: Stores course ratings and reviews
 
-## Contributing
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
 
-## License
 
-[MIT License](LICENSE)
-
-## Support
-
-For support, please open an issue in the repository or contact the development team.
